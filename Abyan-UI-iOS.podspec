@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
  s.name             = 'Abyan-UI-iOS'
-  s.version          = '0.1.1'
+ s.version          = '0.1.2'
 s.summary          = 'Find the liveness of your app user and to check if the ID image is similar to the photo of the user, extract info from ID and passport.'
 
 s.homepage         = 'https://github.com/SedraPay/Abyan-UI-iOS'

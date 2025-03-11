@@ -1,0 +1,2849 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AbyanUI",
+    "printedName": "AbyanUI",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JourneyIDDelegate",
+        "printedName": "JourneyIDDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didFinishCreatingJourneyWithSuccess",
+            "printedName": "didFinishCreatingJourneyWithSuccess(journeyId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AbyanUI17JourneyIDDelegateP017didFinishCreatingC11WithSuccess9journeyIdySS_tF",
+            "mangledName": "$s7AbyanUI17JourneyIDDelegateP017didFinishCreatingC11WithSuccess9journeyIdySS_tF",
+            "moduleName": "AbyanUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : AbyanUI.JourneyIDDelegate>",
+            "sugared_genericSig": "<Self where Self : AbyanUI.JourneyIDDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7AbyanUI17JourneyIDDelegateP",
+        "mangledName": "$s7AbyanUI17JourneyIDDelegateP",
+        "moduleName": "AbyanUI",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AbyanUIErrorDelegate",
+        "printedName": "AbyanUIErrorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didReceiveError",
+            "printedName": "didReceiveError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AbyanUI0A15UIErrorDelegateP15didReceiveErroryySSF",
+            "mangledName": "$s7AbyanUI0A15UIErrorDelegateP15didReceiveErroryySSF",
+            "moduleName": "AbyanUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : AbyanUI.AbyanUIErrorDelegate>",
+            "sugared_genericSig": "<Self where Self : AbyanUI.AbyanUIErrorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7AbyanUI0A15UIErrorDelegateP",
+        "mangledName": "$s7AbyanUI0A15UIErrorDelegateP",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AbyanUIManager",
+        "printedName": "AbyanUIManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AbyanUIManager",
+                "printedName": "AbyanUI.AbyanUIManager",
+                "usr": "s:7AbyanUI0A9UIManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AbyanUI0A9UIManagerC6sharedACvpZ",
+            "mangledName": "$s7AbyanUI0A9UIManagerC6sharedACvpZ",
+            "moduleName": "AbyanUI",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIManager",
+                    "printedName": "AbyanUI.AbyanUIManager",
+                    "usr": "s:7AbyanUI0A9UIManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AbyanUI0A9UIManagerC6sharedACvgZ",
+                "mangledName": "$s7AbyanUI0A9UIManagerC6sharedACvgZ",
+                "moduleName": "AbyanUI",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AbyanUI.JourneyIDDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JourneyIDDelegate",
+                    "printedName": "any AbyanUI.JourneyIDDelegate",
+                    "usr": "s:7AbyanUI17JourneyIDDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AbyanUI0A9UIManagerC8delegateAA17JourneyIDDelegate_pSgvp",
+            "mangledName": "$s7AbyanUI0A9UIManagerC8delegateAA17JourneyIDDelegate_pSgvp",
+            "moduleName": "AbyanUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AbyanUI.JourneyIDDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JourneyIDDelegate",
+                        "printedName": "any AbyanUI.JourneyIDDelegate",
+                        "usr": "s:7AbyanUI17JourneyIDDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AbyanUI0A9UIManagerC8delegateAA17JourneyIDDelegate_pSgvg",
+                "mangledName": "$s7AbyanUI0A9UIManagerC8delegateAA17JourneyIDDelegate_pSgvg",
+                "moduleName": "AbyanUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AbyanUI.JourneyIDDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JourneyIDDelegate",
+                        "printedName": "any AbyanUI.JourneyIDDelegate",
+                        "usr": "s:7AbyanUI17JourneyIDDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AbyanUI0A9UIManagerC8delegateAA17JourneyIDDelegate_pSgvs",
+                "mangledName": "$s7AbyanUI0A9UIManagerC8delegateAA17JourneyIDDelegate_pSgvs",
+                "moduleName": "AbyanUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AbyanUI0A9UIManagerC8delegateAA17JourneyIDDelegate_pSgvM",
+                "mangledName": "$s7AbyanUI0A9UIManagerC8delegateAA17JourneyIDDelegate_pSgvM",
+                "moduleName": "AbyanUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDelegate",
+            "printedName": "errorDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AbyanUI.AbyanUIErrorDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorDelegate",
+                    "printedName": "any AbyanUI.AbyanUIErrorDelegate",
+                    "usr": "s:7AbyanUI0A15UIErrorDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AbyanUI0A9UIManagerC13errorDelegateAA0a7UIErrorE0_pSgvp",
+            "mangledName": "$s7AbyanUI0A9UIManagerC13errorDelegateAA0a7UIErrorE0_pSgvp",
+            "moduleName": "AbyanUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AbyanUI.AbyanUIErrorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorDelegate",
+                        "printedName": "any AbyanUI.AbyanUIErrorDelegate",
+                        "usr": "s:7AbyanUI0A15UIErrorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AbyanUI0A9UIManagerC13errorDelegateAA0a7UIErrorE0_pSgvg",
+                "mangledName": "$s7AbyanUI0A9UIManagerC13errorDelegateAA0a7UIErrorE0_pSgvg",
+                "moduleName": "AbyanUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AbyanUI.AbyanUIErrorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorDelegate",
+                        "printedName": "any AbyanUI.AbyanUIErrorDelegate",
+                        "usr": "s:7AbyanUI0A15UIErrorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AbyanUI0A9UIManagerC13errorDelegateAA0a7UIErrorE0_pSgvs",
+                "mangledName": "$s7AbyanUI0A9UIManagerC13errorDelegateAA0a7UIErrorE0_pSgvs",
+                "moduleName": "AbyanUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AbyanUI0A9UIManagerC13errorDelegateAA0a7UIErrorE0_pSgvM",
+                "mangledName": "$s7AbyanUI0A9UIManagerC13errorDelegateAA0a7UIErrorE0_pSgvM",
+                "moduleName": "AbyanUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setSettingsUI",
+            "printedName": "setSettingsUI(serverKey:serverURLString:customerID:productID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AbyanUI0A9UIManagerC011setSettingsB09serverKey0F9URLString10customerID07productJ0ySS_SSSgSSSiSgtKF",
+            "mangledName": "$s7AbyanUI0A9UIManagerC011setSettingsB09serverKey0F9URLString10customerID07productJ0ySS_SSSgSSSiSgtKF",
+            "moduleName": "AbyanUI",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7AbyanUI0A9UIManagerC",
+        "mangledName": "$s7AbyanUI0A9UIManagerC",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AbyanUIError",
+        "printedName": "AbyanUIError",
+        "declKind": "Struct",
+        "usr": "s:7AbyanUI0A7UIErrorV",
+        "mangledName": "$s7AbyanUI0A7UIErrorV",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AbyanUIErrorEnum",
+        "printedName": "AbyanUIErrorEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToCreateSession",
+            "printedName": "failedToCreateSession",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO21failedToCreateSessionyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO21failedToCreateSessionyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "nonValidServerURL",
+            "printedName": "nonValidServerURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO17nonValidServerURLyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO17nonValidServerURLyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "emptyServerURL",
+            "printedName": "emptyServerURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO14emptyServerURLyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO14emptyServerURLyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "severURLIsNil",
+            "printedName": "severURLIsNil",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO13severURLIsNilyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO13severURLIsNilyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "createJourneyError",
+            "printedName": "createJourneyError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO18createJourneyErroryA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO18createJourneyErroryA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "journeyIsNotGenerated",
+            "printedName": "journeyIsNotGenerated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO21journeyIsNotGeneratedyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO21journeyIsNotGeneratedyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "complyError",
+            "printedName": "complyError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO11complyErroryA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO11complyErroryA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "failedToUploadImage",
+            "printedName": "failedToUploadImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO19failedToUploadImageyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO19failedToUploadImageyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "idDocumentVerificationError",
+            "printedName": "idDocumentVerificationError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO27idDocumentVerificationErroryA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO27idDocumentVerificationErroryA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "cameraAccessDenied",
+            "printedName": "cameraAccessDenied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO18cameraAccessDeniedyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO18cameraAccessDeniedyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO11serverErroryA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO11serverErroryA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "imageLoadingError",
+            "printedName": "imageLoadingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO17imageLoadingErroryA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO17imageLoadingErroryA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "emptyScreeningNameError",
+            "printedName": "emptyScreeningNameError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO23emptyScreeningNameErroryA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO23emptyScreeningNameErroryA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "emptyIdNumber",
+            "printedName": "emptyIdNumber",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO13emptyIdNumberyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO13emptyIdNumberyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Var",
+            "name": "emptyBirthdate",
+            "printedName": "emptyBirthdate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AbyanUI.AbyanUIErrorEnum.Type) -> AbyanUI.AbyanUIErrorEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AbyanUIErrorEnum",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum",
+                    "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AbyanUI.AbyanUIErrorEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AbyanUIErrorEnum",
+                        "printedName": "AbyanUI.AbyanUIErrorEnum",
+                        "usr": "s:7AbyanUI0A11UIErrorEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO14emptyBirthdateyA2CmF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO14emptyBirthdateyA2CmF",
+            "moduleName": "AbyanUI"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AbyanUIErrorEnum",
+                "printedName": "AbyanUI.AbyanUIErrorEnum",
+                "usr": "s:7AbyanUI0A11UIErrorEnumO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AbyanUIErrorEnum",
+                "printedName": "AbyanUI.AbyanUIErrorEnum",
+                "usr": "s:7AbyanUI0A11UIErrorEnumO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO2eeoiySbAC_ACtFZ",
+            "moduleName": "AbyanUI",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO9hashValueSivp",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO9hashValueSivp",
+            "moduleName": "AbyanUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AbyanUI0A11UIErrorEnumO9hashValueSivg",
+                "mangledName": "$s7AbyanUI0A11UIErrorEnumO9hashValueSivg",
+                "moduleName": "AbyanUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AbyanUI0A11UIErrorEnumO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7AbyanUI0A11UIErrorEnumO4hash4intoys6HasherVz_tF",
+            "moduleName": "AbyanUI",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7AbyanUI0A11UIErrorEnumO",
+        "mangledName": "$s7AbyanUI0A11UIErrorEnumO",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UDatePicker",
+        "printedName": "UDatePicker",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "NVActivityIndicatorView",
+        "printedName": "NVActivityIndicatorView",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftMessages",
+        "printedName": "SwiftMessages",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UDatePicker",
+        "printedName": "UDatePicker",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UDatePicker",
+        "printedName": "UDatePicker",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UDatePicker",
+        "printedName": "UDatePicker",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IQKeyboardManagerSwift",
+        "printedName": "IQKeyboardManagerSwift",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FrameworkInitializer",
+        "printedName": "FrameworkInitializer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AbyanUI20FrameworkInitializerC10initializeyyFZ",
+            "mangledName": "$s7AbyanUI20FrameworkInitializerC10initializeyyFZ",
+            "moduleName": "AbyanUI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7AbyanUI20FrameworkInitializerC",
+        "mangledName": "$s7AbyanUI20FrameworkInitializerC",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "AMPopTip",
+        "printedName": "AMPopTip",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DropDown",
+        "printedName": "DropDown",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DatePickerDialog",
+        "printedName": "DatePickerDialog",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FAPickerView",
+        "printedName": "FAPickerView",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UDatePicker",
+        "printedName": "UDatePicker",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "AMPopTip",
+        "printedName": "AMPopTip",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DropDown",
+        "printedName": "DropDown",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DatePickerDialog",
+        "printedName": "DatePickerDialog",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FAPickerView",
+        "printedName": "FAPickerView",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UDatePicker",
+        "printedName": "UDatePicker",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DropDown",
+        "printedName": "DropDown",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DatePickerDialog",
+        "printedName": "DatePickerDialog",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DropDown",
+        "printedName": "DropDown",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UDatePicker",
+        "printedName": "UDatePicker",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UDatePicker",
+        "printedName": "UDatePicker",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DropDown",
+        "printedName": "DropDown",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "OTPFieldView",
+        "printedName": "OTPFieldView",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "FADesignable",
+        "printedName": "FADesignable",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Abyan",
+        "printedName": "Abyan",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "AbyanUI"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/AbyanUI\/AbyanUI.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/AbyanUI\/AbyanUI.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/Common\/CircularProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 365,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/Common\/CircularProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 399,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/Common\/Dialogs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2521,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/Common\/Dialogs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3000,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/Common\/Dialogs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3477,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/Common\/Dialogs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4004,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/Common\/Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 179,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/Cells\/KYCChoiceTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
+      "length": 35,
+      "value": "\"KYCChoiceOptionCollectionViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/Cells\/KYCChoiceTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 642,
+      "length": 35,
+      "value": "\"KYCChoiceOptionCollectionViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/KYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 18,
+      "value": "\"KYCTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/KYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 18,
+      "value": "\"KYCTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/KYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 753,
+      "length": 24,
+      "value": "\"KYCChoiceTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/KYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 24,
+      "value": "\"KYCChoiceTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/RiskKYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/RiskKYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/RiskKYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 18,
+      "value": "\"KYCTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/RiskKYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 18,
+      "value": "\"KYCTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/RiskKYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 24,
+      "value": "\"KYCChoiceTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/KYCViewController\/RiskKYCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 934,
+      "length": 24,
+      "value": "\"KYCChoiceTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Nafath\/NafathRandomNumberVC.swift",
+      "kind": "Array",
+      "offset": 596,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Nafath\/NafathRandomNumberVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 641,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Nafath\/NafathRandomNumberVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 667,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/OCRData\/OCRDataResponseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 97,
+      "length": 14,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/OCRData\/OCRDataResponseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 448,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/Cells\/ScanIDCountryTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 184,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/Cells\/ScanIDCountryTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 300,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/Cells\/ScanIDTypeTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 322,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/ScanIDViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 104,
+      "length": 13,
+      "value": "\"National ID\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/ScanIDViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 138,
+      "length": 10,
+      "value": "\"Passport\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/ScanIDViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 18,
+      "value": "\"Driving License \""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/ScanIDViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/ScanIDViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 700,
+      "length": 28,
+      "value": "\"ScanIDCountryTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/ScanIDViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 28,
+      "value": "\"ScanIDCountryTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/ScanIDViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 25,
+      "value": "\"ScanIDTypeTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Scan ID\/ScanIDViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1003,
+      "length": 25,
+      "value": "\"ScanIDTypeTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/IDTypeInfoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 18,
+      "value": "\"KYCTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/IDTypeInfoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 18,
+      "value": "\"KYCTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/IDTypeInfoViewController.swift",
+      "kind": "Array",
+      "offset": 639,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/SelectIDTypeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 84,
+      "length": 10,
+      "value": "\"Saudi ID\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/SelectIDTypeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 112,
+      "length": 17,
+      "value": "\"Non Saudi Iqama\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/SelectIDTypeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 28,
+      "value": "\"ScanIDCountryTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/SelectIDTypeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 469,
+      "length": 28,
+      "value": "\"ScanIDCountryTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/SelectIDTypeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 25,
+      "value": "\"ScanIDTypeTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Select ID\/SelectIDTypeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 25,
+      "value": "\"ScanIDTypeTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Selfie Instructions\/SelfieInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 33,
+      "value": "\"SelfieInstructionsTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Selfie Instructions\/SelfieInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 33,
+      "value": "\"SelfieInstructionsTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Selfie Instructions\/SelfieInstructionsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 628,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/Selfie Instructions\/SelfieInstructionsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 706,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/LandingPageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/LandingPageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/OTPViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 372,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/OTPViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/OTPViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/StatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 129,
+      "length": 14,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/StatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 153,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/StatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176,
+      "length": 16,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amani\/Desktop\/AbyanUI_iOS\/AbyanUI\/ViewControllers\/StatusViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 11,
+      "value": "\"hourGlass\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 12,
+      "value": "\"AbyanColor\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 12,
+      "value": "\"Group 1752\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 997,
+      "length": 5,
+      "value": "\"OTP\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1130,
+      "length": 11,
+      "value": "\"abyanLogo\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1279,
+      "length": 16,
+      "value": "\"backButtonIcon\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 9,
+      "value": "\"bgLayer\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 14,
+      "value": "\"calendar-day\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1711,
+      "length": 15,
+      "value": "\"cameraCapture\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1858,
+      "length": 13,
+      "value": "\"cameraIcons\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2000,
+      "length": 14,
+      "value": "\"captureImage\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2145,
+      "length": 13,
+      "value": "\"check_abyan\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2284,
+      "length": 10,
+      "value": "\"checkbox\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2437,
+      "length": 19,
+      "value": "\"checkbox_selected\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2588,
+      "length": 13,
+      "value": "\"closeButton\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2729,
+      "length": 11,
+      "value": "\"downArrow\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2878,
+      "length": 16,
+      "value": "\"drivingLicense\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3032,
+      "length": 16,
+      "value": "\"editButtonIcon\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3172,
+      "length": 9,
+      "value": "\"enhance\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3312,
+      "length": 13,
+      "value": "\"facial pass\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3445,
+      "length": 7,
+      "value": "\"flash\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3594,
+      "length": 18,
+      "value": "\"flashUnavailable\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3738,
+      "length": 10,
+      "value": "\"g2pWhite\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3879,
+      "length": 13,
+      "value": "\"icons8-crop\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4026,
+      "length": 15,
+      "value": "\"icons8-crop-1\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4172,
+      "length": 13,
+      "value": "\"icons8-edit\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4321,
+      "length": 16,
+      "value": "\"icons8-ok_hand\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4487,
+      "length": 23,
+      "value": "\"icons8-pencil_drawing\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4635,
+      "length": 10,
+      "value": "\"id_error\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4768,
+      "length": 9,
+      "value": "\"id_icon\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4918,
+      "length": 19,
+      "value": "\"id_icon_with_line\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5074,
+      "length": 16,
+      "value": "\"liveness_abyan\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5228,
+      "length": 16,
+      "value": "\"nationalIDIcon\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5370,
+      "length": 10,
+      "value": "\"passport\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5515,
+      "length": 15,
+      "value": "\"phone_success\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5662,
+      "length": 13,
+      "value": "\"radioButton\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5824,
+      "length": 22,
+      "value": "\"radioButton_selected\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5970,
+      "length": 9,
+      "value": "\"refresh\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6109,
+      "length": 12,
+      "value": "\"rightArrow\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6243,
+      "length": 8,
+      "value": "\"rotate\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6377,
+      "length": 10,
+      "value": "\"scanIcon\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6515,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6661,
+      "length": 15,
+      "value": "\"success_abyan\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6814,
+      "length": 16,
+      "value": "\"takeSelfieIcon\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6960,
+      "length": 12,
+      "value": "\"tickCircle\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7114,
+      "length": 18,
+      "value": "\"verifyMobileIcon\""
+    },
+    {
+      "filePath": "\/Users\/amani\/Library\/Developer\/Xcode\/DerivedData\/AbyanUI-hjswrxruocfthugtontmdjnjuwec\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AbyanUI\/IntermediateBuildFilesPath\/AbyanUI.build\/Release-iphoneos\/AbyanUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7276,
+      "length": 19,
+      "value": "\"welcomeBackground\""
+    }
+  ]
+}

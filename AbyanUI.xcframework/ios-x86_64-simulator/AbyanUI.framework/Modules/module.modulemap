@@ -1,0 +1,6 @@
+framework module AbyanUI {
+  umbrella header "AbyanUI.h"
+  export *
+
+  module * { export * }
+}

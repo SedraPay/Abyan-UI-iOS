@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
  s.name             = 'Abyan-UI-iOS'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
 s.summary          = 'Find the liveness of your app user and to check if the ID image is similar to the photo of the user, extract info from ID and passport.'
 
 s.homepage         = 'https://github.com/SedraPay/Abyan-UI-iOS'
@@ -31,4 +31,16 @@ s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'AVKit'
 s.dependency 'Alamofire'
 s.dependency 'GoogleMLKit/FaceDetection'
 s.dependency 'lottie-ios'
+s.dependency 'Abyan-T-iOS', '0.1.9'
+s.dependency 'NVActivityIndicatorView', '~> 4.8.0'
+s.dependency 'IQKeyboardManagerSwift'
+s.dependency 'OTPFieldView'
+s.dependency 'FADesignable'
+s.dependency 'DropDown'
+s.dependency 'SwiftMessages'
+s.dependency 'AMPopTip'
+s.dependency 'DatePickerDialog'
+s.dependency 'UDatePicker', :git => 'https://github.com/zaidiabbas/UDatePicker'
+s.dependency 'Protobuf'
+s.dependency 'FAPickerView'
 end

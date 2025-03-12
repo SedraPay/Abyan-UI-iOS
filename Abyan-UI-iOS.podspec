@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
  s.name             = 'Abyan-UI-iOS'
- s.version          = '0.1.4'
+ s.version          = '0.1.5'
 s.summary          = 'Find the liveness of your app user and to check if the ID image is similar to the photo of the user, extract info from ID and passport.'
 
 s.homepage         = 'https://github.com/SedraPay/Abyan-UI-iOS'
@@ -31,7 +31,7 @@ s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'AVKit'
 s.dependency 'Alamofire'
 s.dependency 'GoogleMLKit/FaceDetection'
 s.dependency 'lottie-ios'
-#s.dependency 'Abyan-T-iOS', '0.1.9'
+s.dependency 'Abyan-T-iOS', '0.1.9'
 #s.dependency 'NVActivityIndicatorView'
 #s.dependency 'IQKeyboardManagerSwift'
 #s.dependency 'SwiftMessages'
